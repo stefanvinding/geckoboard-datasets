@@ -1,0 +1,30 @@
+{
+    "name": "stefanvinding/geckoboard-datasets",
+    "description": "A Geckoboard dataset rest client",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "~6.1",
+        "illuminate/support": "^4.0|^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.4"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Stefan Vinding",
+            "email": "steole1@gmail.com"
+        },
+        {
+            "name": "Juan Lago",
+            "email": "juanparati@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Stefanvinding\\Geckoboard\\Dataset\\": "src/"
+        }
+    }
+}
