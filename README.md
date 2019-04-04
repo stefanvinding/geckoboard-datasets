@@ -120,7 +120,12 @@ Using the low level API:
         (new \Stefanvinding\Geckoboard\Dataset\Request(['key' => 'YOUR API KEY HERE']))->replaceData('mydataset', $records);
         
         
-### 3. Test
+## 3. Test
 
 1) Add your API key into tests/BaseTest.php
 2) Run PHPUnit ("vendor/phpunit/phpunit/phpunit")
+
+
+## Supported by
+
+- [Matchbanker.no](https://matchbanker.no/).
