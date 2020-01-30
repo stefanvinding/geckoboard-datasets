@@ -3,7 +3,7 @@ GECKOBOARD DATASET REST CLIENT
 
 ## 1. What is it?
 
-A rest client library for PHP 5.6/7.x that allows to perform CRUD operations against the new Geckoboard Dataset API.
+A rest client library for PHP 7.2+ that allows to perform CRUD operations against the new Geckoboard Dataset API.
 
 
 ## 2. How it works?
@@ -120,7 +120,12 @@ Using the low level API:
         (new \Stefanvinding\Geckoboard\Dataset\Request(['key' => 'YOUR API KEY HERE']))->replaceData('mydataset', $records);
         
         
-### 3. Test
+## 3. Test
 
 1) Add your API key into tests/BaseTest.php
 2) Run PHPUnit ("vendor/phpunit/phpunit/phpunit")
+
+
+## Supported by
+
+- [Matchbanker.no](https://matchbanker.no/).
